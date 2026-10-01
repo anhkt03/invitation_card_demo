@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { toast } from '@heroui/react';
 import { ApiError } from '@/shared/lib/api';
 import { authService } from '../services/auth.service';
@@ -17,7 +17,6 @@ import { LoginCredentials } from '../types';
  */
 export const useAuth = () => {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [isLoading, setIsLoading] = useState(false);
 
   /** Trả về true nếu đăng nhập thành công, để component tự quyết định làm gì thêm. */
@@ -29,7 +28,9 @@ export const useAuth = () => {
       authStorage.save(tokens);
 
       // Quay lại trang đã bị chặn (?next=...), không có thì về dashboard.
-      const returnTo = sanitizeReturnUrl(searchParams.get(NEXT_PARAM));
+      // Đọc thẳng từ URL lúc đăng nhập thay vì dùng useSearchParams(): hook đó buộc mọi
+      // component dùng useAuth (vd AdminSidebar) phải bọc Suspense, nếu không `next build` lỗi.
+      const returnTo = sanitizeReturnUrl(new URLSearchParams(window.location.search).get(NEXT_PARAM));
       router.push(returnTo ?? AUTH_CONSTANTS.ROUTES.AFTER_LOGIN);
       return true;
     } catch (err) {
