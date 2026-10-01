@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="og1" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#fdf3ec"/>
+      <stop offset="1" stop-color="#f0cdbc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#og1)"/>
+  <circle cx="470" cy="170" r="120" fill="#f5dccd" opacity="0.8"/>
+  <!-- mặt tiền cửa hàng -->
+  <g transform="translate(300 420)">
+    <rect x="-140" y="-40" width="280" height="180" rx="10" fill="#fffdf9" stroke="#d9b9a5" stroke-width="5"/>
+    <path d="M-150 -40 h300 l-24 -70 h-252 Z" fill="#b3282d"/>
+    <path d="M-150 -40 h300" stroke="#8f1f24" stroke-width="6"/>
+    <g fill="#fffdf9" opacity="0.85">
+      <path d="M-126 -47 a20 20 0 0 0 40 0 Z"/>
+      <path d="M-46 -47 a20 20 0 0 0 40 0 Z"/>
+      <path d="M34 -47 a20 20 0 0 0 40 0 Z"/>
+      <path d="M104 -47 a20 20 0 0 0 24 0 Z"/>
+    </g>
+    <rect x="-30" y="20" width="60" height="120" rx="6" fill="#c9973f"/>
+    <circle cx="14" cy="80" r="5" fill="#8f5f1f"/>
+    <rect x="-110" y="20" width="56" height="56" rx="6" fill="#e8d5c5"/>
+    <rect x="54" y="20" width="56" height="56" rx="6" fill="#e8d5c5"/>
+  </g>
+</svg>

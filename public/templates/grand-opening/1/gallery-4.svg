@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="og4" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/>
+      <stop offset="1" stop-color="#d9c9a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#og4)"/>
+  <circle cx="150" cy="190" r="120" fill="#e9ddc0" opacity="0.8"/>
+  <!-- chậu mai/quất chúc mừng -->
+  <g transform="translate(300 430)">
+    <path d="M-70 60 h140 l-20 110 h-100 Z" fill="#b3282d"/>
+    <rect x="-80" y="40" width="160" height="24" rx="8" fill="#8f1f24"/>
+    <g stroke="#7d6a3a" stroke-width="7" fill="none">
+      <path d="M0 40 C -10 -20, -40 -60, -80 -90"/>
+      <path d="M0 40 C 10 -30, 40 -70, 78 -96"/>
+      <path d="M0 40 C 0 -40, -6 -90, 0 -130"/>
+    </g>
+    <g fill="#c9973f">
+      <circle cx="-80" cy="-96" r="13"/>
+      <circle cx="-46" cy="-64" r="11"/>
+      <circle cx="78" cy="-102" r="13"/>
+      <circle cx="46" cy="-72" r="11"/>
+      <circle cx="0" cy="-136" r="13"/>
+      <circle cx="-12" cy="-88" r="10"/>
+      <circle cx="16" cy="-46" r="10"/>
+    </g>
+  </g>
+</svg>

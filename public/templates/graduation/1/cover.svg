@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#eef2f7"/>
+      <stop offset="0.55" stop-color="#d8e0ec"/>
+      <stop offset="1" stop-color="#b9c6da"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.3" r="0.65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#gbg)"/>
+  <circle cx="730" cy="210" r="250" fill="#cdd8e6" opacity="0.55"/>
+  <circle cx="140" cy="1010" r="300" fill="#aebfd6" opacity="0.4"/>
+  <rect width="900" height="1200" fill="url(#gglow)"/>
+
+  <!-- mũ tốt nghiệp -->
+  <g transform="translate(450 420)">
+    <polygon points="0,-70 170,0 0,70 -170,0" fill="#3e5678"/>
+    <polygon points="0,-70 170,0 0,70 -170,0" fill="none" stroke="#2c405e" stroke-width="6"/>
+    <rect x="-62" y="28" width="124" height="46" rx="8" fill="#2c405e"/>
+    <line x1="0" y1="0" x2="118" y2="52" stroke="#b08d57" stroke-width="6"/>
+    <circle cx="118" cy="52" r="9" fill="#b08d57"/>
+    <path d="M118 52 v70" stroke="#b08d57" stroke-width="6"/>
+    <path d="M104 122 h28 l-6 34 h-16 Z" fill="#b08d57"/>
+  </g>
+
+  <!-- vòng nguyệt quế -->
+  <g stroke="#8ba374" fill="none" stroke-width="5" opacity="0.85">
+    <path d="M250 980 C 190 880, 190 760, 260 680"/>
+    <path d="M650 980 C 710 880, 710 760, 640 680"/>
+  </g>
+  <g fill="#9db184" opacity="0.85">
+    <ellipse cx="238" cy="920" rx="26" ry="10" transform="rotate(-64 238 920)"/>
+    <ellipse cx="216" cy="840" rx="26" ry="10" transform="rotate(-80 216 840)"/>
+    <ellipse cx="222" cy="756" rx="26" ry="10" transform="rotate(-102 222 756)"/>
+    <ellipse cx="252" cy="700" rx="24" ry="9" transform="rotate(-124 252 700)"/>
+    <ellipse cx="662" cy="920" rx="26" ry="10" transform="rotate(64 662 920)"/>
+    <ellipse cx="684" cy="840" rx="26" ry="10" transform="rotate(80 684 840)"/>
+    <ellipse cx="678" cy="756" rx="26" ry="10" transform="rotate(102 678 756)"/>
+    <ellipse cx="648" cy="700" rx="24" ry="9" transform="rotate(124 648 700)"/>
+  </g>
+  <g fill="#b08d57" opacity="0.8">
+    <circle cx="450" cy="1010" r="8"/>
+    <circle cx="420" cy="1030" r="4"/>
+    <circle cx="480" cy="1030" r="4"/>
+  </g>
+
+  <!-- hạt trang trí -->
+  <g fill="#8fa3c0" opacity="0.55">
+    <circle cx="180" cy="330" r="6"/>
+    <circle cx="760" cy="470" r="7"/>
+    <circle cx="260" cy="580" r="5"/>
+    <circle cx="700" cy="640" r="5"/>
+    <circle cx="140" cy="760" r="6"/>
+  </g>
+</svg>

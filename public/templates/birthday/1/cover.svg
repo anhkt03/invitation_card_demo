@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff6fa"/>
+      <stop offset="0.5" stop-color="#fde8f0"/>
+      <stop offset="1" stop-color="#f8d3e2"/>
+    </linearGradient>
+    <radialGradient id="bglow" cx="0.5" cy="0.3" r="0.65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bbg)"/>
+  <circle cx="720" cy="220" r="240" fill="#fbdce9" opacity="0.7"/>
+  <circle cx="150" cy="1000" r="290" fill="#f6c8da" opacity="0.5"/>
+  <rect width="900" height="1200" fill="url(#bglow)"/>
+
+  <!-- bóng bay -->
+  <g>
+    <ellipse cx="330" cy="380" rx="95" ry="115" fill="#ef8fb4"/>
+    <path d="M330 495 l-12 24 h24 Z" fill="#ef8fb4"/>
+    <path d="M330 519 C 320 600, 350 660, 335 740" stroke="#d98aa8" stroke-width="4" fill="none"/>
+    <ellipse cx="305" cy="345" rx="26" ry="38" fill="#ffffff" opacity="0.35"/>
+
+    <ellipse cx="530" cy="310" rx="80" ry="98" fill="#8fc7e8"/>
+    <path d="M530 408 l-11 22 h22 Z" fill="#8fc7e8"/>
+    <path d="M530 430 C 545 520, 515 580, 528 660" stroke="#84b4cf" stroke-width="4" fill="none"/>
+    <ellipse cx="508" cy="280" rx="22" ry="32" fill="#ffffff" opacity="0.4"/>
+
+    <ellipse cx="620" cy="470" rx="66" ry="80" fill="#f3c163"/>
+    <path d="M620 550 l-10 20 h20 Z" fill="#f3c163"/>
+    <path d="M620 570 C 610 640, 640 690, 628 750" stroke="#dcae59" stroke-width="4" fill="none"/>
+    <ellipse cx="602" cy="446" rx="18" ry="26" fill="#ffffff" opacity="0.4"/>
+  </g>
+
+  <!-- confetti -->
+  <g opacity="0.85">
+    <rect x="180" y="220" width="16" height="8" rx="3" fill="#ef8fb4" transform="rotate(24 188 224)"/>
+    <rect x="700" y="180" width="16" height="8" rx="3" fill="#8fc7e8" transform="rotate(-30 708 184)"/>
+    <rect x="240" y="620" width="16" height="8" rx="3" fill="#f3c163" transform="rotate(40 248 624)"/>
+    <rect x="720" y="700" width="16" height="8" rx="3" fill="#ef8fb4" transform="rotate(-18 728 704)"/>
+    <rect x="160" y="840" width="16" height="8" rx="3" fill="#8fc7e8" transform="rotate(12 168 844)"/>
+    <circle cx="260" cy="180" r="7" fill="#f3c163"/>
+    <circle cx="660" cy="620" r="7" fill="#ef8fb4"/>
+    <circle cx="120" cy="500" r="6" fill="#8fc7e8"/>
+    <circle cx="790" cy="420" r="6" fill="#f3c163"/>
+    <path d="M430 640 q10 -18 20 0 q-10 18 -20 0" fill="#ef8fb4"/>
+  </g>
+
+  <!-- dây cờ -->
+  <g>
+    <path d="M60 120 C 250 210, 650 210, 840 120" stroke="#d98aa8" stroke-width="5" fill="none"/>
+    <polygon points="200,163 232,168 208,192" fill="#ef8fb4"/>
+    <polygon points="330,190 362,192 340,218" fill="#f3c163"/>
+    <polygon points="470,196 502,194 482,222" fill="#8fc7e8"/>
+    <polygon points="610,182 640,176 622,206" fill="#ef8fb4"/>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+{
+  "groom_name": "Minh Khang",
+  "bride_name": "Thanh Hà",
+  "groom_photo": "/templates/wedding/sample/groom.jpg",
+  "bride_photo": "/templates/wedding/sample/bride.jpg",
+  "use_initials": "true",
+  "groom_role": "Trưởng nam",
+  "bride_role": "Trưởng nữ",
+  "groom_parents": "Ông Nguyễn Văn Hưng\nBà Lê Thị Mai",
+  "groom_address": "Phường 7, Quận 3\nTP. Hồ Chí Minh",
+  "bride_parents": "Ông Trần Quốc Bảo\nBà Phạm Thị Hạnh",
+  "bride_address": "Phường Bến Thành, Quận 1\nTP. Hồ Chí Minh",
+
+  "cover_quote": "Từ hôm nay, nhà là nơi có anh và em.",
+  "opening_quote": "Hai con đường, một ngã rẽ, và chúng mình đã chọn đi cùng nhau.",
+  "opening_letter": "Trân trọng báo tin và kính mời bạn đến chung vui trong ngày chúng mình chính thức về chung một nhà.\nSự có mặt của bạn là món quà ý nghĩa nhất.",
+  "invitation": "Trân trọng kính mời bạn đến dự lễ thành hôn của chúng tôi",
+  "families_note": "Hai gia đình, một niềm vui — cảm ơn vì đã cùng chúng mình vun đắp tình yêu này.",
+  "calendar_note": "Một ngày trong lịch, một đời bên nhau.",
+
+  "engagement_date_time": "2026-12-13T09:00",
+  "engagement_venue": "Tư gia nhà gái · Phường Bến Thành, Quận 1",
+  "date_time": "2026-12-20T08:30",
+  "lunar_date": "Nhằm ngày 11 tháng 11 năm Bính Ngọ",
+  "wedding_venue": "Tư gia nhà trai · Phường 7, Quận 3",
+  "reception_date_time": "2026-12-20T11:00",
+  "reception_note": "Đón khách từ 10:30",
+  "venue_name": "Trung tâm Tiệc cưới Diamond Palace",
+  "venue_hall": "Sảnh Ruby",
+  "venue_address": "45 Lê Duẩn, Quận 1, TP. Hồ Chí Minh",
+  "map_url": "",
+
+  "cover_photo": "/templates/wedding/demo/photo-1.jpg",
+  "background_photo": "/templates/wedding/demo/photo-3.jpg",
+  "thanks_photo": "/templates/wedding/demo/photo-2.jpg",
+  "gallery": [
+    "/templates/wedding/demo/photo-2.jpg",
+    "/templates/wedding/demo/photo-3.jpg",
+    "/templates/wedding/sample/detail-1.jpg",
+    "/templates/wedding/demo/photo-4.jpg",
+    "/templates/wedding/sample/detail-2.jpg",
+    "/templates/wedding/sample/bride.jpg",
+    "/templates/wedding/sample/groom.jpg",
+    "/templates/wedding/demo/photo-1.jpg"
+  ],
+
+  "gallery_captions": "Lần đầu hẹn hò\nNụ cười của em\nChuyến đi xa\nNgày cầu hôn\nTay trong tay\nAnh của em\nEm của anh\nVề chung một nhà",
+  "banner_words": "FALL IN | LOVE | FOREVER",
+
+  "story_milestones": "2019 — Lần đầu gặp nhau dưới sân trường đại học\n2022 — Cùng nhau đi qua những ngày khó khăn nhất\n2025 — Lời cầu hôn bên bờ biển Đà Nẵng\n2026 — Chúng mình cưới!",
+  "wishes": "Việt Anh: Chúc hai bạn trăm năm hạnh phúc!\nMinh Duy: Chúc mừng nhé, hẹn gặp ở tiệc cưới!\nLan Anh: Gửi đến hai bạn những lời chúc tốt lành nhất!",
+
+  "gift_note": "Nếu không thể đến chung vui, bạn có thể gửi lời chúc phúc qua mã QR bên dưới.",
+  "groom_qr_image": "/templates/wedding/1/qr-placeholder.svg",
+  "groom_account_name": "NGUYEN MINH KHANG",
+  "groom_bank": "Vietcombank\nSTK: 0123 456 789",
+  "bride_qr_image": "/templates/wedding/1/qr-placeholder.svg",
+  "bride_account_name": "TRAN THANH HA",
+  "bride_bank": "Techcombank\nSTK: 9876 543 210",
+
+  "thank_you": "Sự hiện diện của bạn là niềm hạnh phúc của chúng mình.\nYêu thương này, xin được giữ mãi.",
+
+  "auto_scroll": "false",
+  "auto_scroll_speed": "normal"
+}

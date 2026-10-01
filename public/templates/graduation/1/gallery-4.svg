@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="gg4" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#f0f1f6"/>
+      <stop offset="1" stop-color="#c9c4dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#gg4)"/>
+  <circle cx="150" cy="180" r="120" fill="#dcd8e8" opacity="0.7"/>
+  <!-- vòng nguyệt quế + ngôi sao -->
+  <g stroke="#8ba374" fill="none" stroke-width="5" opacity="0.85">
+    <path d="M210 520 C 170 440, 180 340, 250 280"/>
+    <path d="M390 520 C 430 440, 420 340, 350 280"/>
+  </g>
+  <g fill="#9db184" opacity="0.85">
+    <ellipse cx="196" cy="470" rx="22" ry="8" transform="rotate(-70 196 470)"/>
+    <ellipse cx="188" cy="400" rx="22" ry="8" transform="rotate(-92 188 400)"/>
+    <ellipse cx="206" cy="330" rx="22" ry="8" transform="rotate(-116 206 330)"/>
+    <ellipse cx="404" cy="470" rx="22" ry="8" transform="rotate(70 404 470)"/>
+    <ellipse cx="412" cy="400" rx="22" ry="8" transform="rotate(92 412 400)"/>
+    <ellipse cx="394" cy="330" rx="22" ry="8" transform="rotate(116 394 330)"/>
+  </g>
+  <path d="M300 330 l14 30 33 4 -24 23 6 33 -29 -16 -29 16 6 -33 -24 -23 33 -4 Z" fill="#b08d57"/>
+</svg>

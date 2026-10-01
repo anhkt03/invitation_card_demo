@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="og3" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#fdf1ee"/>
+      <stop offset="1" stop-color="#eec3ba"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#og3)"/>
+  <circle cx="460" cy="620" r="140" fill="#f5d5cd" opacity="0.8"/>
+  <!-- pháo hoa lớn -->
+  <g stroke="#b3282d" stroke-width="7" opacity="0.9" stroke-linecap="round" transform="translate(300 340)">
+    <line x1="0" y1="-60" x2="0" y2="-110"/><line x1="0" y1="60" x2="0" y2="110"/>
+    <line x1="-60" y1="0" x2="-110" y2="0"/><line x1="60" y1="0" x2="110" y2="0"/>
+    <line x1="-42" y1="-42" x2="-78" y2="-78"/><line x1="42" y1="-42" x2="78" y2="-78"/>
+    <line x1="-42" y1="42" x2="-78" y2="78"/><line x1="42" y1="42" x2="78" y2="78"/>
+  </g>
+  <g fill="#c9973f">
+    <circle cx="300" cy="340" r="12"/>
+    <circle cx="300" cy="196" r="7"/>
+    <circle cx="300" cy="484" r="7"/>
+    <circle cx="156" cy="340" r="7"/>
+    <circle cx="444" cy="340" r="7"/>
+  </g>
+  <g fill="#b3282d" opacity="0.6">
+    <circle cx="180" cy="560" r="6"/>
+    <circle cx="430" cy="200" r="6"/>
+  </g>
+</svg>

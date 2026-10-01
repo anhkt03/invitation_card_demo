@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#fff3f8"/>
+      <stop offset="1" stop-color="#f6cadb"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg1)"/>
+  <circle cx="470" cy="170" r="120" fill="#fadfe9" opacity="0.8"/>
+  <!-- bánh kem -->
+  <g transform="translate(300 430)">
+    <rect x="-130" y="20" width="260" height="90" rx="16" fill="#ef8fb4"/>
+    <rect x="-100" y="-50" width="200" height="74" rx="14" fill="#f7b6cd"/>
+    <path d="M-100 -50 q25 26 50 0 q25 26 50 0 q25 26 50 0 q25 26 50 0 v20 h-200 Z" fill="#fffdfd" opacity="0.9"/>
+    <rect x="-8" y="-108" width="16" height="52" rx="6" fill="#f3c163"/>
+    <ellipse cx="0" cy="-116" rx="10" ry="14" fill="#e8964b"/>
+    <circle cx="-70" cy="60" r="9" fill="#fffdfd" opacity="0.85"/>
+    <circle cx="0" cy="66" r="9" fill="#fffdfd" opacity="0.85"/>
+    <circle cx="70" cy="60" r="9" fill="#fffdfd" opacity="0.85"/>
+  </g>
+</svg>

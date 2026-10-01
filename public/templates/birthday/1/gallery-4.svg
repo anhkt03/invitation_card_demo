@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#f4fbf7"/>
+      <stop offset="1" stop-color="#c8e8d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg4)"/>
+  <circle cx="150" cy="190" r="120" fill="#daf0e3" opacity="0.8"/>
+  <!-- kem que & kẹo -->
+  <g transform="translate(230 420) rotate(-10)">
+    <path d="M-55 -90 a55 55 0 0 1 110 0 v10 h-110 Z" fill="#ef8fb4"/>
+    <path d="M-55 -80 h110 l-18 150 a37 37 0 0 1 -74 0 Z" fill="#f7d9a4"/>
+    <path d="M-37 -80 l10 140 M0 -80 l0 146 M37 -80 l-10 140" stroke="#e5b876" stroke-width="6"/>
+    <circle cx="-18" cy="-108" r="7" fill="#fffdfd"/>
+    <circle cx="22" cy="-96" r="6" fill="#f3c163"/>
+  </g>
+  <g transform="translate(400 470) rotate(16)">
+    <rect x="-16" y="-10" width="32" height="150" rx="14" fill="#fffdfd"/>
+    <path d="M-16 10 h32 M-16 45 h32 M-16 80 h32 M-16 115 h32" stroke="#ef8fb4" stroke-width="14"/>
+  </g>
+  <circle cx="470" cy="230" r="8" fill="#8fc7e8"/>
+</svg>

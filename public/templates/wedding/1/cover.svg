@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#f9efe9"/>
+      <stop offset="0.55" stop-color="#f1dcd5"/>
+      <stop offset="1" stop-color="#e2bfb8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.32" r="0.65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <circle cx="720" cy="190" r="270" fill="#e9cec7" opacity="0.55"/>
+  <circle cx="130" cy="1020" r="310" fill="#dcb3aa" opacity="0.35"/>
+  <circle cx="820" cy="900" r="180" fill="#eed7d1" opacity="0.5"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+
+  <!-- nhẫn đôi -->
+  <g stroke="#a96f77" fill="none" stroke-width="7" opacity="0.9">
+    <circle cx="408" cy="425" r="96"/>
+    <circle cx="498" cy="468" r="96"/>
+  </g>
+  <g stroke="#c9989f" fill="none" stroke-width="3" opacity="0.8">
+    <path d="M408 316 l-14 -26 14 -14 14 14 z" fill="#c9989f"/>
+  </g>
+
+  <!-- cành hoa góc trên trái -->
+  <g stroke="#b5867f" fill="none" stroke-width="4" opacity="0.65">
+    <path d="M-20 150 C 120 190, 200 130, 300 210"/>
+    <path d="M-20 230 C 90 250, 170 210, 240 280"/>
+  </g>
+  <g fill="#c79a92" opacity="0.7">
+    <ellipse cx="120" cy="168" rx="26" ry="10" transform="rotate(18 120 168)"/>
+    <ellipse cx="200" cy="152" rx="24" ry="9" transform="rotate(-14 200 152)"/>
+    <ellipse cx="272" cy="196" rx="24" ry="9" transform="rotate(32 272 196)"/>
+    <ellipse cx="90" cy="242" rx="22" ry="8" transform="rotate(10 90 242)"/>
+    <ellipse cx="180" cy="228" rx="22" ry="8" transform="rotate(-20 180 228)"/>
+  </g>
+
+  <!-- vòng cung hoa lá dưới -->
+  <g stroke="#ad7d76" fill="none" stroke-width="5" opacity="0.75">
+    <path d="M90 1150 C 250 1050, 380 1070, 452 972"/>
+    <path d="M810 1150 C 650 1050, 520 1070, 452 972"/>
+  </g>
+  <g fill="#bd8d85" opacity="0.8">
+    <ellipse cx="180" cy="1104" rx="30" ry="11" transform="rotate(-28 180 1104)"/>
+    <ellipse cx="268" cy="1064" rx="28" ry="10" transform="rotate(-20 268 1064)"/>
+    <ellipse cx="352" cy="1040" rx="27" ry="10" transform="rotate(-32 352 1040)"/>
+    <ellipse cx="425" cy="1000" rx="25" ry="9" transform="rotate(-48 425 1000)"/>
+    <ellipse cx="720" cy="1104" rx="30" ry="11" transform="rotate(28 720 1104)"/>
+    <ellipse cx="632" cy="1064" rx="28" ry="10" transform="rotate(20 632 1064)"/>
+    <ellipse cx="548" cy="1040" rx="27" ry="10" transform="rotate(32 548 1040)"/>
+    <ellipse cx="475" cy="1000" rx="25" ry="9" transform="rotate(48 475 1000)"/>
+  </g>
+  <g fill="#a96f77" opacity="0.85">
+    <circle cx="452" cy="952" r="9"/>
+    <circle cx="430" cy="972" r="5"/>
+    <circle cx="474" cy="972" r="5"/>
+  </g>
+
+  <!-- hạt rơi -->
+  <g fill="#c79a92" opacity="0.5">
+    <circle cx="160" cy="420" r="6"/>
+    <circle cx="760" cy="480" r="7"/>
+    <circle cx="240" cy="640" r="5"/>
+    <circle cx="700" cy="700" r="5"/>
+    <circle cx="120" cy="800" r="6"/>
+    <circle cx="800" cy="320" r="5"/>
+  </g>
+</svg>
